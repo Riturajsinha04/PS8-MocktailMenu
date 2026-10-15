@@ -7,6 +7,10 @@
 
 [Open the live Mocktail Menu application](https://ps-8-mocktail-menu-gray.vercel.app/)
 
+## Deployment
+
+The project is configured for Vercel deployment with `vercel.json`. The rewrite sends direct requests for client-side routes back to the React application, so URLs such as `/drinks/5` continue to work after a page refresh instead of returning a 404 error.
+
 ## About the project
 
 PS8 Mocktail Menu is a React application for browsing non-alcoholic drinks. Users can explore the mocktail catalogue, search by drink name, view recipe details, and save drinks to a favourites list.
